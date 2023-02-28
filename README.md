@@ -1,1 +1,100 @@
-# Uriel-Naon.github.io
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js" defer ></script>
+    <script src="https://kit.fontawesome.com/6abc7f156e.js" crossorigin="anonymous" defer></script>
+    <link rel="shortcut icon" href="img/user-solid.svg" type="image/x-icon">
+    <title>cv-ticmas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <p id="Foto">
+                    <img src="img/Foto_de_perfil(128x128).jpg" alt="foto de perfil">
+                </p>
+                <span>
+                    <h1>Alvin Hudson</h1>
+                    <h3>Diseñador gráfico</h3>
+                </span>
+                <ul>
+                    <li>
+                        <div class="activo tab" data-tab-selector="#datos_personales">
+                            <img class="icon" src="img/address-book-solid.svg" alt="icono">
+                            <h3>Datos</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tab" data-tab-selector="#experiencia_laboral">
+                            <img class="icon" src="img/business-time-solid.svg" alt="icono"> 
+                            <h3>Experiencia</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tab" data-tab-selector="#habilidades">
+                            <img class="icon" src="img/book-solid.svg" alt="icono">
+                            <h3>Habilidades</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="activo" id="datos_personales" data-tab-contenido>
+            <h4>Edad : 42 años</h4>
+            <h4>Mail : alvin.hudson@example.com</h4>
+            <h4>Número Telefónico : (779) 381-5291</h4>
+            <h4>dirección : 292 Valley View Ln</h4>
+            <h4>Educación :
+                Ago 2013 - May 2017 Universidad Alfonso X, Licenciatura en Administración de empresas Graduado magna cum
+                laude.</h4>
+            <p id="sobre">
+                Profesional ambicioso y con formación en recursos humanos,
+                que busca un puesto de principiante en el que pueda utilizar mejor mis habilidades y mi pasión. <br>
+                Excepcionalmente organizado y motivado.
+                Ambicioso y capaz de trabajar independientemente o en equipo. <br>
+                Comprometido a establecer y mantener un ambiente de trabajo positivo para todos los empleados.
+            </p>
+
+        </div>
+        <div id="experiencia_laboral" data-tab-contenido>
+            <p>
+                Ayudó en la creación de documentación para todos los nuevos empleados,
+                y siguió creando archivos conforme al protocolo de RRHH. <br>
+
+                Creó un registro de cumplimiento para uso de la gerencia cada mes. <br>
+
+                Asistió en el mantenimiento de todos los archivos en papel para el departamento de RRHH. <br>
+
+                Ayudó en la actualización de toda la información de beneficios,
+                a la vez que ampliaba los conocimientos relacionados con los beneficios para los empleados. <br>
+
+                Mantenía una conducta profesional, agradable y trabajadora día tras día. <br>
+            </p>
+        </div>
+        <div id="educación" data-tab-contenido>
+            <p>Ago 2013 - May 2017 Universidad Alfonso X,
+                Licenciatura en Administración de empresas Graduado magna cum laude.
+                Escritor principal en la revista El león.
+            </p>
+        </div>
+        <div id="habilidades" data-tab-contenido>
+            <p>
+            <ul>
+                <li>Mecanografía rápida.</li>
+                <li>Conocimientos de sistemas de Software avanzado.</li>
+                <li>Comunicación Interpersonal.</li>
+                <li>Auto-motivado.</li>
+                <li>Bilingüe.</li>
+            </ul>
+            </p>
+        </div>
+    </main>
+</body>
+</html>
